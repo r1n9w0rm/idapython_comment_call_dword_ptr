@@ -96,4 +96,4 @@ for ea in idautils.Heads():
 
         # Write comment containing function name at address of call instruction
         #idc.MakeComm(ea, function_name)
-        #print('Commented call at 0x%08x as %s', (ea, function_name))
+        #print('Commented call at 0x%08x as %s' % (ea, function_name))
